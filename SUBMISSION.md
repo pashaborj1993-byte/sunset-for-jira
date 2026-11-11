@@ -29,7 +29,7 @@ The core Jira workflow uses Forge and no separate model host. Forge usage beyond
 - Public YouTube video under five minutes showing the real Jira workflow and agent response.
 - A local 72-second silent screenshot-based draft is rendered and visually checked. It is not a public YouTube demo or a substitute for a clear live walkthrough with narration.
 - Devpost text: audience, problem, differentiated idea, actual Forge/Jira implementation, limits, category, and verified bonus specifics.
-- Screenshots, source repository URL, reviewed public privacy notice, and a support contact. `PRIVACY.md` is a local draft, not a public URL.
+- Screenshots, source repository URL if publication is approved, public privacy notice, and a support contact. `PRIVACY.md` is prepared locally but has no public URL yet.
 - A restricted JSM support desk has been tested with portal request SSUP-1 and an agent queue. Its project lead is now a recipient for future new-request notifications. Email delivery, a separate customer account, and a customer-facing AI agent remain unverified; see `SUPPORT.md`.
 
 ## Release gates still open

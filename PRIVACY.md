@@ -1,6 +1,8 @@
-# Sunset privacy notice (draft for release)
+# Sunset privacy notice
 
-Sunset is a Forge app for Jira Cloud. It records temporary workaround decisions so a team can revisit them when a prerequisite changes. This notice describes the current implementation. Review it with the app owner before using it as a public policy.
+Last updated: November 11, 2026.
+
+Sunset is a Forge app for Jira Cloud. It records temporary workaround decisions so a team can revisit them when a prerequisite changes. This notice describes the current implementation.
 
 ## Data Sunset handles
 

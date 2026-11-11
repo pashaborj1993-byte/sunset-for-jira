@@ -20,7 +20,7 @@ Sunset is an Atlassian Forge app with a Jira project page, Jira issue panel, For
 
 ## Demonstrated behavior
 
-On an owned demo Jira site, a synthetic source issue was registered with a separate prerequisite. Changing that prerequisite to Done produced a live **Condition met** result. A retirement task was created and inspected in Jira. The project review queue action and issue explanation action were invoked through Sunset Guide. The app also passed 12 unit tests and four browser tests, including desktop and mobile overflow checks.
+On an owned demo Jira site, a synthetic source issue was registered with a separate prerequisite. Changing that prerequisite to Done produced a live **Condition met** result. A retirement task was created and inspected in Jira. The project review queue action and issue explanation action were invoked through Sunset Guide. The app also passed 12 unit tests, four browser tests (including desktop and mobile overflow checks), a production build, and Forge lint.
 
 This is a synthetic demonstration. We do not claim a customer pilot, time savings, Teamwork Graph integration, or a working external MCP client. Evidence is checked on page load, manual refresh, and Rovo invocation; there is no background monitoring or automatic removal.
 
@@ -35,7 +35,7 @@ Jira permissions made it important to read issue context as the current user and
 ## Judge access
 
 **Installation link:** [ADD AFTER DISTRIBUTION IS ENABLED]  
-**Demo video:** [ADD PUBLIC YOUTUBE URL, UNDER FIVE MINUTES]  
+**Demo video:** [ADD PUBLIC YOUTUBE URL, UNDER FIVE MINUTES; LOCAL SILENT DRAFT EXISTS]  
 **Source:** [ADD REPOSITORY URL ONLY IF PUBLICATION IS APPROVED]  
 **Privacy notice:** [ADD REVIEWED PUBLIC URL]  
 **Support:** babimoore954@gmail.com
