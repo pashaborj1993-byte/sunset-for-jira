@@ -1,6 +1,6 @@
 # Codegeist 2026 submission preparation
 
-Deadline: December 22, 2026 at 12:00 PM Pacific Time. Submit before that time on Devpost. A private production build exists, but there is no installation link or submitted entry yet.
+Deadline: December 22, 2026 at 12:00 PM Pacific Time. Submit before that time on Devpost. A production build and Jira installation link exist, but there is no submitted entry yet.
 
 ## Project position
 
@@ -25,7 +25,7 @@ The core Jira workflow uses Forge and no separate model host. Forge usage beyond
 
 ## Required submission materials
 
-- Production installation link from the Forge developer console. Production version 2.2.0 was deployed November 11, 2026, but distribution remains private. The console's personal-data declaration was corrected to Yes because Sunset stores Atlassian account IDs.
+- Production installation link from the Forge developer console. Production version 2.2.0 was deployed November 11, 2026; Sharing with anyone was enabled and the Jira installation screen opened successfully. The full link is saved locally in `.impeccable/review/install-link.txt` for the Devpost form. The console's personal-data declaration is Yes because Sunset stores Atlassian account IDs.
 - Public YouTube video under five minutes showing the real Jira workflow and agent response.
 - A local 72-second silent screenshot-based draft is rendered and visually checked. It is not a public YouTube demo or a substitute for a clear live walkthrough with narration.
 - Devpost text: audience, problem, differentiated idea, actual Forge/Jira implementation, limits, category, and verified bonus specifics.
@@ -35,7 +35,7 @@ The core Jira workflow uses Forge and no separate model host. Forge usage beyond
 ## Release gates still open
 
 - Test installation from a non-contributor admin account using the sharing link.
-- The public privacy notice is hosted in the approved source repository. The owner authorized babimoore954@gmail.com as the public support contact on November 11. Enabling Sharing with anyone still requires action-time approval because any Atlassian site administrator with the link can install the app and consent to its Jira scopes.
+- The public privacy notice is hosted in the approved source repository. The owner authorized babimoore954@gmail.com as the public support contact on November 11. Sharing with anyone is active; any Atlassian site administrator with the link can install the app and consent to its Jira scopes.
 - Test permission differences with two Jira users; confirm no source record leaks.
 - Test the `rovo:mcp` tool from an MCP-compatible client or Rovo Studio.
 - An external MCP client additionally requires a site or organization admin to enable the app's tool in Connected apps; that exposure is disabled by default.

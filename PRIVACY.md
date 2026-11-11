@@ -16,6 +16,8 @@ Jira reads and writes run as the current user. Sunset checks access to the sourc
 
 The app runs on Atlassian Forge and uses Atlassian-managed storage. Its core workflow has no external analytics, model host, or application server. The optional Sunset Guide Rovo agent and Atlassian MCP tool return permitted decision information through Atlassian's Rovo platform when invoked. Atlassian's own terms and privacy notices also apply to its products and platform.
 
+Forge invocation logs may contain technical error information used to troubleshoot the app. Authorized app contributors can inspect those logs through Atlassian's developer tools; site administrators can manage vendor log access in Atlassian Administration. Avoid putting secrets or private issue content in support messages or free-text decision fields.
+
 ## Retention and deletion
 
 Sunset currently has no self-service deletion or export control for decision records. Stored records persist until an administrator or app owner removes them through an appropriate Forge administration process or the installation is removed under Atlassian's applicable data lifecycle. Do not assume uninstall immediately erases every copy. Jira tasks created by Sunset are ordinary Jira issues and remain subject to the site's Jira retention and deletion settings.
