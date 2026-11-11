@@ -36,8 +36,8 @@ Jira permissions made it important to read issue context as the current user and
 
 **Installation link:** [ADD AFTER DISTRIBUTION IS ENABLED]  
 **Demo video:** [ADD PUBLIC YOUTUBE URL, UNDER FIVE MINUTES; LOCAL SILENT DRAFT EXISTS]  
-**Source:** [ADD REPOSITORY URL ONLY IF PUBLICATION IS APPROVED]  
-**Privacy notice:** [ADD REVIEWED PUBLIC URL]  
+**Source:** https://github.com/pashaborj1993-byte/sunset-for-jira  
+**Privacy notice:** https://github.com/pashaborj1993-byte/sunset-for-jira/blob/main/PRIVACY.md  
 **Support:** babimoore954@gmail.com
 
 The installing user must be a Jira site administrator. On a Jira project with a standard Task issue type, create two synthetic issues, one as the workaround source and one as its prerequisite. In Sunset's project page, register the source issue and prerequisite target status. Move the prerequisite to that status, refresh evidence, and create a review task. In Rovo, select Sunset Guide and ask which workarounds in the project need review. Full steps: `JUDGE_DEMO.md`.

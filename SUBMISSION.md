@@ -29,13 +29,13 @@ The core Jira workflow uses Forge and no separate model host. Forge usage beyond
 - Public YouTube video under five minutes showing the real Jira workflow and agent response.
 - A local 72-second silent screenshot-based draft is rendered and visually checked. It is not a public YouTube demo or a substitute for a clear live walkthrough with narration.
 - Devpost text: audience, problem, differentiated idea, actual Forge/Jira implementation, limits, category, and verified bonus specifics.
-- Screenshots, source repository URL if publication is approved, public privacy notice, and a support contact. `PRIVACY.md` is prepared locally but has no public URL yet.
+- Screenshots, public source repository at `https://github.com/pashaborj1993-byte/sunset-for-jira`, public privacy notice at `https://github.com/pashaborj1993-byte/sunset-for-jira/blob/main/PRIVACY.md`, and the authorized support contact.
 - A restricted JSM support desk has been tested with portal request SSUP-1 and an agent queue. Its project lead is now a recipient for future new-request notifications. Email delivery, a separate customer account, and a customer-facing AI agent remain unverified; see `SUPPORT.md`.
 
 ## Release gates still open
 
 - Test installation from a non-contributor admin account using the sharing link.
-- Review and host the privacy notice before enabling Sharing with anyone. The owner authorized babimoore954@gmail.com as the public support contact on November 11. This setting allows anyone with the link to install on an Atlassian site after its administrator grants consent.
+- The public privacy notice is hosted in the approved source repository. The owner authorized babimoore954@gmail.com as the public support contact on November 11. Enabling Sharing with anyone still requires action-time approval because any Atlassian site administrator with the link can install the app and consent to its Jira scopes.
 - Test permission differences with two Jira users; confirm no source record leaks.
 - Test the `rovo:mcp` tool from an MCP-compatible client or Rovo Studio.
 - An external MCP client additionally requires a site or organization admin to enable the app's tool in Connected apps; that exposure is disabled by default.
