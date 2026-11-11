@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-09T00:00:00Z",
+  "title": "Design System: Sunset",
+  "extensions": {
+    "shadows": [{"name":"selected-edge","value":"inset 3px 0 #bc7f24","purpose":"Marks the selected queue record."}],
+    "motion": [
+      {"name":"control-background","value":"background .15s","purpose":"Button hover feedback."},
+      {"name":"changed-evidence","value":"changed .5s ease-out","purpose":"Evidence fades from #fff0d0 to transparent; disabled with reduced motion."}
+    ],
+    "breakpoints": [{"name":"wide","value":"1400px"},{"name":"stack-evidence","value":"1000px"},{"name":"mobile","value":"680px"}]
+  },
+  "components": [
+    {"name":"Primary button","kind":"button","refersTo":"button-primary","description":"Evergreen action.","html":"<button class=\"ds-primary\">Register workaround</button>","css":".ds-primary{font:600 13px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--ink,#26332c);color:white;border:1px solid var(--ink,#26332c);border-radius:7px;padding:10px 15px;min-height:40px;cursor:pointer;transition:background .15s}.ds-primary:hover{background:#3c5143}.ds-primary:focus-visible{outline:3px solid #a56a13;outline-offset:3px}.ds-primary:disabled{opacity:.5;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-primary{transition:none}}"},
+    {"name":"Secondary button","kind":"button","description":"Bordered supporting action.","html":"<button class=\"ds-secondary\">Extend</button>","css":".ds-secondary{font:600 13px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:white;color:var(--ink,#26332c);border:1px solid #cbd3ca;border-radius:7px;padding:10px 15px;cursor:pointer;transition:background .15s}.ds-secondary:hover{background:#edf0e9}.ds-secondary:focus-visible{outline:3px solid #a56a13;outline-offset:3px}@media(prefers-reduced-motion:reduce){.ds-secondary{transition:none}}"},
+    {"name":"Text action","kind":"button","description":"Quiet supporting action.","html":"<button class=\"ds-text\">Record retirement</button>","css":".ds-text{font:600 12px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;border:0;background:transparent;padding:6px 0;color:#52634f;cursor:pointer}.ds-text:hover{background:#edf0e9}.ds-text:focus-visible{outline:3px solid #a56a13;outline-offset:3px}"},
+    {"name":"Search field","kind":"input","refersTo":"field","description":"Find an issue or workaround.","html":"<input class=\"ds-search\" type=\"search\" aria-label=\"Search workarounds\" placeholder=\"Find an issue or workaround…\">","css":".ds-search{font:12px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;border:1px solid #bac7b7;border-radius:6px;padding:10px 11px;color:var(--ink,#26332c);background:white;caret-color:#915b12}.ds-search::placeholder{color:#6b776a}.ds-search:focus-visible{outline:3px solid #a56a13;outline-offset:3px}"},
+    {"name":"Queue filter","kind":"nav","description":"Pressed state identifies the active queue filter.","html":"<nav aria-label=\"Filter workarounds\"><button class=\"ds-filter\" aria-pressed=\"true\">Needs review 2</button><button class=\"ds-filter\" aria-pressed=\"false\">Watching</button></nav>","css":".ds-filter{font:600 11px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;border:0;border-radius:7px;background:transparent;padding:7px 9px;color:#637067;cursor:pointer}.ds-filter[aria-pressed=true]{background:#e9eee4;color:#344a39}.ds-filter:hover{background:#edf0e9}.ds-filter:focus-visible{outline:3px solid #a56a13;outline-offset:3px}"},
+    {"name":"Status label","kind":"chip","description":"Written state accompanied by a colored dot.","html":"<span class=\"ds-status\">Condition met</span>","css":".ds-status{display:inline-flex;align-items:center;gap:6px;font:600 11px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:#365a35;white-space:nowrap}.ds-status:before{content:'';width:6px;height:6px;border-radius:50%;background:#547d36}"},
+    {"name":"Workbench surface","kind":"card","refersTo":"workbench","description":"Flat container for operational review.","html":"<section class=\"ds-workbench\"><h3>Then: a reason to keep it</h3><p>Recorded evidence precedes the next decision.</p></section>","css":".ds-workbench{font:13px/1.8 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:white;color:var(--ink,#26332c);border:1px solid var(--line,#dce1d9);border-radius:12px;padding:28px 36px}.ds-workbench h3{font-size:12px;font-weight:650;margin:0 0 15px}.ds-workbench p{margin:0;color:#4f5f52}"}
+  ],
+  "narrative": {
+    "northStar": "The Operational Workbench",
+    "overview": "The implemented interface pairs evergreen navigation and actions with amber selection and sample context. Quiet paper surfaces, compact metadata, and explicit evidence make temporary decisions easy to revisit. This describes the pilot implementation; it does not establish customer validation.\n\nThe approved amber-to-dawn palette and then → now → decision evidence sequence are the durable visual commitments. Other atmosphere language remains provisional.",
+    "keyCharacteristics": ["Evergreen actions and amber emphasis.","A queue beside a focused review surface.","Numbered evidence with explicit human decisions.","Compact system typography and restrained depth."],
+    "rules": [],
+    "dos": ["Do preserve the approved then → now → decision sequence.","Do pair status color with a written label.","Do retain visible keyboard focus and reduced-motion behavior.","Do distinguish synthetic sample context from Jira workspace context."],
+    "donts": ["Don't present a met prerequisite as proof that removal is safe.","Don't replace the implemented flat workbench with floating shadow cards without a new design decision.","Don't treat provisional atmosphere language as a validated brand commitment."]
+  }
+}

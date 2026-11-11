@@ -1,0 +1,86 @@
+modules:
+  jira:projectPage:
+    - key: sunset-project
+      resource: main
+      resolver:
+        function: resolver
+      title: Sunset
+  jira:issuePanel:
+    - key: sunset-issue
+      resource: main
+      resolver:
+        function: resolver
+      title: Sunset
+      icon: https://developer.atlassian.com/platform/forge/images/icons/issue-panel-icon.svg
+  rovo:agent:
+    - key: sunset-guide
+      name: Sunset Guide
+      description: Explain why temporary Jira workarounds exist and when to review them.
+      prompt: |
+        You help software teams review temporary workarounds recorded in Sunset.
+        For a question about one issue, ask for its Jira issue key if needed and
+        use get-sunset-decisions. For a project review queue, ask for the Jira
+        project key if needed and use get-sunset-review-queue. Obtain current
+        records before answering. Cite source and prerequisite issue keys,
+        observed status, and review date. Explain why each item needs review.
+        Treat unavailable evidence as unknown. A met condition means a person
+        should review removal; it never proves removal is safe. Do not invent
+        workarounds, verification, or completed removals. Do not change Jira data.
+      conversationStarters:
+        - Why is this workaround still here?
+        - Which temporary decisions on this issue need review?
+        - Which workarounds in my project need review now?
+      actions:
+        - get-sunset-decisions
+        - get-sunset-review-queue
+  rovo:mcp:
+    - key: sunset-tools
+      name: Sunset tools
+      tools:
+        - get-sunset-decisions
+        - get-sunset-review-queue
+  action:
+    - key: get-sunset-decisions
+      name: Get Sunset decisions
+      function: get-sunset-decisions-fn
+      actionVerb: GET
+      description: Retrieve live temporary workaround decisions for a Jira source issue, including reasons, prerequisite evidence, review dates, and retirement task references. Read only.
+      inputs:
+        issueKey:
+          title: Jira issue key
+          type: string
+          required: true
+          description: Jira source issue key such as PLAT-123.
+    - key: get-sunset-review-queue
+      name: Get Sunset review queue
+      function: review-queue-fn
+      actionVerb: GET
+      description: Find temporary decisions in one Jira project that need human review, with permission-filtered live prerequisite evidence. Read only.
+      inputs:
+        projectKey:
+          title: Jira project key
+          type: string
+          required: true
+          description: Jira project key such as PLAT.
+  function:
+    - key: resolver
+      handler: index.handler
+    - key: get-sunset-decisions-fn
+      handler: index.getSunsetDecisions
+    - key: review-queue-fn
+      handler: index.getSunsetReviewQueue
+resources:
+  - key: main
+    path: dist
+permissions:
+  scopes:
+    - read:jira-work
+    - write:jira-work
+    - storage:app
+  content:
+    styles:
+      - unsafe-inline
+app:
+  id: ari:cloud:ecosystem::app/337563f6-18a0-4a57-83e3-d9e30dc936d7
+  runtime:
+    name: nodejs22.x
