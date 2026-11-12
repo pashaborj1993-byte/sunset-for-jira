@@ -1,6 +1,6 @@
 # Codegeist 2026 submission preparation
 
-Deadline: December 22, 2026 at 12:00 PM Pacific Time (9:00 PM in Paris). A production build and judge installation link exist. The public YouTube video and final submission remain open.
+Deadline: December 22, 2026 at 12:00 PM Pacific Time (9:00 PM in Paris). A production build, judge installation link, and public YouTube video exist. Final Devpost submission remains open.
 
 ## Project position
 
@@ -26,8 +26,7 @@ The core Jira workflow uses Forge and no separate model host. Forge usage beyond
 ## Required submission materials
 
 - Production installation link from the Forge developer console. Production version 2.2.0 was deployed November 11, 2026; Sharing with anyone was enabled and the Jira installation screen opened successfully. The full link is saved locally in `.impeccable/review/install-link.txt` for the Devpost form. The console's personal-data declaration is Yes because Sunset stores Atlassian account IDs.
-- Public YouTube video under five minutes showing the real Jira workflow and agent response.
-- A local 72-second narrated screenshot-based draft is rendered and visually checked. It is not a public YouTube demo or a substitute for a clear live walkthrough.
+- Public 57-second YouTube demo: `https://youtu.be/H5UEg50YIbQ`. It uses the entrant's supplied voiceover, licensed background music, and screenshots from the real Jira app and Rovo agent with synthetic issues. It does not show continuous live interaction; do not describe it as a live walkthrough.
 - Two synthetic demo screenshots (production Jira workbench and Rovo review queue) were uploaded to the Devpost draft with captions and verified after reloading the form on November 12, 2026.
 - Devpost text: audience, problem, differentiated idea, actual Forge/Jira implementation, limits, category, and verified bonus specifics.
 - Screenshots, public source repository at `https://github.com/pashaborj1993-byte/sunset-for-jira`, public privacy notice at `https://github.com/pashaborj1993-byte/sunset-for-jira/blob/main/PRIVACY.md`, and the authorized support contact.
@@ -43,6 +42,6 @@ The core Jira workflow uses Forge and no separate model host. Forge usage beyond
 - Test task creation in another Jira project and the uncertain-write recovery instructions.
 - Decide whether to implement a useful, demonstrable Teamwork Graph relationship before claiming that bonus.
 - Run a real engineer pilot. Current records and feedback are synthetic; do not present them as customer validation.
-- Record and publish the live walkthrough video, add its YouTube URL to the Devpost draft, then review and submit the complete form.
+- The public YouTube URL is saved in the Devpost draft. Review the finalization screen and submit after the required action-time acceptance of the official rules and Devpost terms. A longer continuous live walkthrough could strengthen the entry before the deadline.
 
 Do not state that any open gate is complete in the video or submission.
