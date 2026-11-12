@@ -1,6 +1,6 @@
 # Sunset judge demo plan
 
-Status: a 72-second silent screenshot-based draft exists at `videos/codegeist-demo/renders/sunset-codegeist-draft.mp4`. It is not uploaded or submitted. Replace or expand it with a spoken live walkthrough before public submission; the shot list below remains the target.
+Status: a 72-second narrated screenshot-based draft exists at `videos/codegeist-demo/renders/sunset-codegeist-narrated-draft.mp4`. It uses a local synthetic voice, is not uploaded, and does not show a continuous live interaction. Replace or expand it with a spoken live walkthrough before public submission; the shot list below remains the target.
 
 ## Claim to demonstrate
 
