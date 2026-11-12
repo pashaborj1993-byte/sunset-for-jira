@@ -35,7 +35,7 @@ Jira permissions made it important to read issue context as the current user and
 ## Judge access
 
 **Installation link:** [ADD AFTER DISTRIBUTION IS ENABLED]  
-**Demo video:** [ADD PUBLIC YOUTUBE URL, UNDER FIVE MINUTES; LOCAL SILENT DRAFT EXISTS]  
+**Demo video:** [ADD PUBLIC YOUTUBE URL, UNDER FIVE MINUTES; LOCAL NARRATED SCREENSHOT DRAFT EXISTS]  
 **Source:** https://github.com/pashaborj1993-byte/sunset-for-jira  
 **Privacy notice:** https://github.com/pashaborj1993-byte/sunset-for-jira/blob/main/PRIVACY.md  
 **Support:** babimoore954@gmail.com

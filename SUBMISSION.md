@@ -1,6 +1,6 @@
 # Codegeist 2026 submission preparation
 
-Deadline: December 22, 2026 at 12:00 PM Pacific Time. Submit before that time on Devpost. A production build and Jira installation link exist, but there is no submitted entry yet.
+Deadline: December 22, 2026 at 12:00 PM Pacific Time (9:00 PM in Paris). The owner registered the Devpost account `pashaborj1993-byte` for Codegeist on November 12. A production build and Jira installation link exist, but there is no submitted entry yet.
 
 ## Project position
 
@@ -27,7 +27,7 @@ The core Jira workflow uses Forge and no separate model host. Forge usage beyond
 
 - Production installation link from the Forge developer console. Production version 2.2.0 was deployed November 11, 2026; Sharing with anyone was enabled and the Jira installation screen opened successfully. The full link is saved locally in `.impeccable/review/install-link.txt` for the Devpost form. The console's personal-data declaration is Yes because Sunset stores Atlassian account IDs.
 - Public YouTube video under five minutes showing the real Jira workflow and agent response.
-- A local 72-second silent screenshot-based draft is rendered and visually checked. It is not a public YouTube demo or a substitute for a clear live walkthrough with narration.
+- A local 72-second narrated screenshot-based draft is rendered and visually checked. It is not a public YouTube demo or a substitute for a clear live walkthrough.
 - Devpost text: audience, problem, differentiated idea, actual Forge/Jira implementation, limits, category, and verified bonus specifics.
 - Screenshots, public source repository at `https://github.com/pashaborj1993-byte/sunset-for-jira`, public privacy notice at `https://github.com/pashaborj1993-byte/sunset-for-jira/blob/main/PRIVACY.md`, and the authorized support contact.
 - A restricted JSM support desk has been tested with portal request SSUP-1 and an agent queue. Its project lead is now a recipient for future new-request notifications. Email delivery, a separate customer account, and a customer-facing AI agent remain unverified; see `SUPPORT.md`.
