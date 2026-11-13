@@ -8,6 +8,7 @@ import {
 } from "../core";
 export const demo =
   import.meta.env.DEV ||
+  import.meta.env.VITE_PUBLIC_DEMO === "1" ||
   new URLSearchParams(location.search).get("demo") === "1";
 const storageKey = "sunset-demo-v1";
 const today = new Date().toISOString().slice(0, 10);
