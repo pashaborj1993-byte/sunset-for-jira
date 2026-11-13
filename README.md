@@ -2,6 +2,8 @@
 
 **Give temporary decisions an end.** Sunset is an Atlassian Forge app for recording temporary Jira workarounds, checking their prerequisites, and starting a human review when removal may be due.
 
+**Try the public interactive sample:** https://pashaborj1993-byte.github.io/sunset-for-jira/ — no sign-in required. It uses synthetic issues and browser-local storage, so it does not connect to Jira or exercise the Forge/Rovo backend. Codegeist judges can use the production Forge installation link in the submission's judge instructions to test the real Jira app.
+
 For the Codegeist 2026 judge narrative and verification status, see [DEVPOST_DRAFT.md](DEVPOST_DRAFT.md), [JUDGE_DEMO.md](JUDGE_DEMO.md), and [RELEASE_GATES.md](RELEASE_GATES.md).
 
 ## Run the interactive sample
@@ -24,6 +26,8 @@ npm run preview -- --port 4173
 `npm run test:browser` uses installed Microsoft Edge. Set `PW_CHANNEL=chrome` to use installed Chrome instead. Browser tests run against a production preview.
 
 The production preview requires `?demo=1` to explicitly enable synthetic data. A production Forge iframe never silently falls back to sample mode.
+
+The public sample is built with `VITE_PUBLIC_DEMO=1` and published from the repository's `gh-pages` branch. This build flag must never be set for the Forge production build. To refresh the public sample, build with that flag and publish the resulting `dist` contents to `gh-pages`.
 
 ## Deploy to a Jira test site
 
