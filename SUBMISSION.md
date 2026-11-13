@@ -1,6 +1,6 @@
 # Codegeist 2026 submission preparation
 
-Deadline: December 22, 2026 at 12:00 PM Pacific Time (9:00 PM in Paris). A production build, judge installation link, and public YouTube video exist. Final Devpost submission remains open.
+Deadline: December 22, 2026 at 12:00 PM Pacific Time (9:00 PM in Paris). A production build, judge installation link, and public YouTube video exist. The Devpost entry was submitted November 13, 2026 and remains editable until the deadline.
 
 ## Project position
 
@@ -43,6 +43,6 @@ The core Jira workflow uses Forge and no separate model host. Forge usage beyond
 - Test task creation in another Jira project and the uncertain-write recovery instructions.
 - Decide whether to implement a useful, demonstrable Teamwork Graph relationship before claiming that bonus.
 - Run a real engineer pilot. Current records and feedback are synthetic; do not present them as customer validation.
-- The public YouTube URL is saved in the Devpost draft. Review the finalization screen and submit after the required action-time acceptance of the official rules and Devpost terms. A longer continuous live walkthrough could strengthen the entry before the deadline.
+- The public YouTube URL is saved in the Devpost entry. Devpost confirmed `Project submitted!` on November 13, 2026. A longer continuous live walkthrough could strengthen the entry before the deadline.
 
 Do not state that any open gate is complete in the video or submission.
