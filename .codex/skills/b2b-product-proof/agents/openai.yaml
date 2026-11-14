@@ -1,0 +1,4 @@
+interface:
+  display_name: B2B Product Proof
+  short_description: Turn a technical product into buyer-verifiable proof.
+  default_prompt: Package this repository into a credible buyer-facing offer with a pilot and proof.
