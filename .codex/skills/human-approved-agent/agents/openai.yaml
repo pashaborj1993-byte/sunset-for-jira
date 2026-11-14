@@ -1,0 +1,4 @@
+interface:
+  display_name: Human-Approved Agent
+  short_description: Build AI workflows with visible approval and recovery.
+  default_prompt: Review this agent workflow and make every consequential action human-approved and recoverable.

@@ -1,0 +1,4 @@
+interface:
+  display_name: GitHub Client Ready
+  short_description: Make a portfolio repository credible to technical buyers.
+  default_prompt: Review this GitHub portfolio as a prospective B2B buyer and improve its conversion path.
