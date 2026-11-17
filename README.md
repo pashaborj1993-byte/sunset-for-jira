@@ -2,6 +2,14 @@
 
 **Give temporary decisions an end.** Sunset is an Atlassian Forge app for recording temporary Jira workarounds, checking their prerequisites, and starting a human review when removal may be due.
 
+## For Jira teams evaluating Sunset
+
+Sunset is designed for engineering and platform teams that need a defensible process for temporary workarounds: a named owner, an explicit exit condition, evidence of whether that condition is met, and a human decision before retirement.
+
+The first customer engagement should be a focused pilot rather than a broad rollout. See [PILOT.md](PILOT.md) for the success criteria, boundaries, and evaluation plan. The included Codex skills under [`.codex/skills`](.codex/skills) capture the operating workflows behind that pilot: audit the existing workaround debt, launch a safe trial, assess automation risk, and produce an evidence-based outcome.
+
+Sunset does not autonomously change Jira issues or retire workarounds. It surfaces evidence and starts a review; a permitted person makes the decision.
+
 **Try the public interactive sample:** https://pashaborj1993-byte.github.io/sunset-for-jira/ — no sign-in required. It uses synthetic issues and browser-local storage, so it does not connect to Jira or exercise the Forge/Rovo backend. Codegeist judges can use the production Forge installation link in the submission's judge instructions to test the real Jira app.
 
 For the Codegeist 2026 judge narrative and verification status, see [DEVPOST_DRAFT.md](DEVPOST_DRAFT.md), [JUDGE_DEMO.md](JUDGE_DEMO.md), and [RELEASE_GATES.md](RELEASE_GATES.md).

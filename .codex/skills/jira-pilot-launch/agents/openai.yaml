@@ -1,0 +1,4 @@
+interface:
+  display_name: Jira Pilot Launch
+  short_description: Run a bounded Jira automation pilot that earns expansion.
+  default_prompt: Create a two-week pilot plan for our Jira workaround-review process.

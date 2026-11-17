@@ -1,0 +1,4 @@
+interface:
+  display_name: Jira Workaround Audit
+  short_description: Turn temporary Jira decisions into a review queue.
+  default_prompt: Audit our temporary Jira workarounds and produce an evidence-based retirement review queue.
